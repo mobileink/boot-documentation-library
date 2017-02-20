@@ -3,13 +3,13 @@ Library of DITA-based boot documentation
 
 Just some skeleton POC stuff at the moment.  Two documents:
 
-* link:dita/boot-ug.ditamap[Boot Users Guide] (source) has enough detail to give you an idea of the potential.  Note the index.
+* link:dita/boot-ug.ditamap[Boot Users Guide] (source) has enough detail to give you an idea of the potential.
 
 * link:dita/boot-task-dg.ditamap[Boot Task Development Guide] (source)
 
-PDF renditions are available in link:dita/out[dita/out].  The ditaot
-kit has somewhat fancier PDF stylesheets than the ditac kit, but of
-course all that can be customized.
+PDF renditions are available in link:dita/out[dita/out]. Note the
+index. The ditaot kit has somewhat fancier PDF stylesheets than the
+ditac kit, but of course all that can be customized.
 
 HTML and other output formats are also supported; see the
 documentation of your DITA kit for details.
