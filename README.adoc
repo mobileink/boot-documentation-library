@@ -1,0 +1,49 @@
+= boot-documentation-library
+Library of DITA-based boot documentation
+
+Just some skeleton POC stuff at the moment.  Two documents:
+
+* link:dita/boot-ug.ditamap[Boot Users Guide] (source) has enough detail to give you an idea of the potential.  Note the index.
+
+* link:dita/boot-task-dg.ditamap[Boot Task Development Guide] (source)
+
+PDF renditions are available in link:dita/out[dita/out].  The ditaot
+kit has somewhat fancier PDF stylesheets than the ditac kit, but of
+course all that can be customized.
+
+HTML and other output formats are also supported; see the
+documentation of your DITA kit for details.
+
+IMPORTANT: If you want to contribute, just copy something already
+there and hack out some DITA XML. (If you don't know DITA, I'm afraid
+you're on your own for the moment, you'll have to search the web for
+info.)  Be sure to stay as modular as possible; if your topic has
+complex structure, use one file (topic/concept/etc.) for each idea;
+this allows use to use topicmaps to assemble the structure.
+
+=== dita
+
+There are two open-source implementations:
+
+* http://www.dita-ot.org/[DITA Open Toolkit]
+
+[source,bash]
+----
+$ ${DITAOT_HOME}/bin/dita -i boot-task-dg.ditamap -f pdf -o out/ditaot/boot-task-dg.pdf
+----
+
+
+* http://www.xmlmind.com/ditac/[XMLMind DITA Converter (ditac)]
+
+[source,bash]
+----
+$ ditac out/boot-task-dg.pdf boot-task-dg.ditamap
+----
+
+==== specs
+
+* http://docs.oasis-open.org/dita/dita/v1.3/dita-v1.3-part2-tech-content.html[(DITA) Version 1.3 Part 2: Technical Content Edition]
+
+* http://www.ditamap.com/ditaref2.php[DITA Reference] - for version 1.1(?) but still useful
+
+

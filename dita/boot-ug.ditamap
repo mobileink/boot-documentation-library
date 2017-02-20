@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN"
+"../dtd/bookmap/dtd/bookmap.dtd">
+
+<bookmap id="boot-ug">
+  <booktitle>
+    <booklibrary>Boot Documentation Library</booklibrary>
+    <mainbooktitle>Boot User Guide</mainbooktitle>
+    <!-- <booktitlealt></booktitlealt> -->
+  </booktitle>
+
+  <bookmeta>
+    <author type="creator">Gregg Reynolds</author>
+    <bookid>
+      <!-- <isbn>071271271X</isbn> -->
+      <!-- <booknumber>SG99-9999-00</booknumber> -->
+      <maintainer>
+	<organization></organization>
+	<person>Gregg Reynolds</person>
+      </maintainer>
+    </bookid>
+    <bookrights>
+      <copyrfirst><year>2017</year></copyrfirst>
+      <!-- <copyrlast><year>2007</year></copyrlast> -->
+      <bookowner>
+	<organization></organization>
+      </bookowner>
+    </bookrights>
+  </bookmeta>
+
+  <frontmatter>
+    <draftintro href="ug/frontmatter.draftintro.dita"
+		navtitle="About this Draft"/>
+    <booklists>
+      <toc/>
+    </booklists>
+    <bookabstract href="ug/frontmatter.abstract.dita"/>
+    <notices href="common/notices.dita">
+      <topicref href="common/trademarks.dita"></topicref>
+    </notices>
+    <preface href="ug/frontmatter.preface.dita"></preface>
+  </frontmatter>
+
+  <part href="ug/part1.overview.dita">
+
+    <chapter href="ug/getting.started.dita">
+      <topicref href="ug/installation.dita"/>
+      <topicref href="ug/configuration.overview.dita">
+	<topicref href="ug/configuration.jvm.dita">
+	  <topicref href="ug/boot.properties.dita"/>
+	  <topicref href="ug/configuration.env.dita"/>
+	</topicref>
+
+	<topicref href="ug/configuration.clojure.dita">
+	  <topicref href="ug/build.boot.dita"/>
+	  <topicref href="ug/profile.boot.dita"/>
+	</topicref>
+
+	<topicref href="ug/configuration.boot.dita">
+	  <topicref href="ug/boot.env.dita"/>
+	</topicref>
+
+	<topicref href="ug/configuration.task.dita">
+	  <topicref href="ug/task.options.dita"/>
+	  <topicref href="ug/configuration.edn.dita"/>
+	</topicref>
+
+      </topicref>
+
+    </chapter>
+
+    <chapter href="ug/concepts.overview.dita">
+
+    <topicref href="ug/tasks.overview.dita">
+      <topicref href="ug/tasks.middleware.dita"/>
+      <topicref href="ug/tasks.anatomy.dita"/>
+    </topicref>
+
+    <topicref href="ug/pipelines.overview.dita">
+      <topicref href="ug/pipeline.processing.dita"/>
+    </topicref>
+
+    <topicref href="ug/filesets.overview.dita">
+      <topicref href="ug/fs.roles.dita"/>
+    </topicref>
+
+    <topicref href="ug/workspaces.overview.dita">
+      <topicref href="ug/ws.concepts.dita"/>
+    </topicref>
+
+    <topicref href="ug/pods.overview.dita">
+      <topicref href="ug/pod.concepts.dita"/>
+    </topicref>
+    </chapter>
+
+    <chapter href="ug/taskdev.overview.dita">
+      <topicref href="ug/taskdev.apis.dita"/>
+      <topicref href="ug/taskdev.workflow.dita"/>
+    </chapter>
+
+    <chapter href="ug/troubleshooting.overview.dita">
+      <topicref href="ug/ts.a.dita"/>
+      <topicref href="ug/ts.b.dita"/>
+    </chapter>
+
+
+  </part>
+
+
+
+  <part href="ug/part2.overview.dita">
+
+    <chapter href="ug/refman.tasks.dita">
+      <topicref href="ug/refman.add-repo.dita"/>
+      <topicref href="ug/refman.aot.dita"/>
+      <topicref href="ug/refman.install.dita"/>
+      <topicref href="ug/refman.help.dita"/>
+      <topicref href="ug/refman.jar.dita"/>
+      <topicref href="ug/refman.javac.dita"/>
+      <topicref href="ug/refman.pom.dita"/>
+      <topicref href="ug/refman.push.dita"/>
+      <topicref href="ug/refman.repl.dita"/>
+      <topicref href="ug/refman.show.dita"/>
+      <topicref href="ug/refman.sift.dita"/>
+      <topicref href="ug/refman.target.dita"/>
+      <topicref href="ug/refman.uber.dita"/>
+      <topicref href="ug/refman.wait.dita"/>
+      <topicref href="ug/refman.war.dita"/>
+      <topicref href="ug/refman.watch.dita"/>
+      <topicref href="ug/refman.web.dita"/>
+      <topicref href="ug/refman.zip.dita"/>
+    </chapter>
+
+    <chapter href="ug/refman.api.overview.dita">
+      <topicref href="ug/refman.api.core.overview.dita">
+	<topicref href="ug/refman.api.core.input-files.dita"/>
+	<topicref href="ug/refman.api.core.tmp-dir.dita"/>
+      </topicref>
+      <topicref href="ug/refman.api.pod.overview.dita"/>
+      <!-- <topicref href="ug/refman.api.util.dita"/> -->
+    </chapter>
+
+  </part>
+
+  <appendix href="ug/appendix.dita"></appendix>
+  <!-- <appendix href="ug/overview.case.dita"></appendix> -->
+
+  <backmatter>
+    <booklists>
+      <!-- <topicref href="taskbook/otherbooks.dita" navtitle="Related Books"/> -->
+      <!-- <topicref href="taskbook/trademarks.dita" navtitle="Trademarks"/> -->
+      <!-- <topicref href="taskbook/Glossary.dita navtitle="Glossary"/> -->
+      <bibliolist/>
+      <glossarylist>
+	<topicref format="ditamap" href="glossary.ditamap"/>
+      </glossarylist>
+      <indexlist/>
+    </booklists>
+  </backmatter>
+</bookmap>

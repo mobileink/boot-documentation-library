@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd" >
+
+<topic id="ug.configuration.task.dita">
+  <title>Task Configuration</title>
+  <body>
+
+    <p>
+      Mechanisms:
+      <ul>
+	<li>Task options: command line, build.boot.</li>
+	<li>Boot env map <codeph>(get-env)</codeph></li>
+	<li>Env variables</li>
+	<li>EDN files</li>
+      </ul>
+    </p>
+
+  </body>
+
+  <related-links>
+    <link href="https://github.com/boot-clj/boot/wiki/Boot-Environment" format="html" scope="external">
+      <linktext>Boot Environment (wiki page)</linktext>
+    </link>
+
+  </related-links>
+
+</topic>

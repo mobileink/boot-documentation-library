@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
+"../../dtd/technicalContent/dtd/concept.dtd">
+
+<concept id="dg.tasks.middleware" xml:lang="en-us">
+
+  <title>Middleware Concepts</title>
+  <shortdesc>The concept of <i>middleware</i> is central to boot's concept of a task.</shortdesc>
+
+  <conbody>
+    <p>
+      Boot borrows the notion of middleware from <xref format="html"
+      scope="external"
+      href="https://github.com/ring-clojure/ring">Ring</xref>.
+    </p>
+
+    <note type="important">Boot's notion of "middleware" is a little
+    bit peculiar, and should not be confused with other <xref
+    format="html" scope="external"
+    href="https://en.wikipedia.org/wiki/Middleware">common uses of the
+    term</xref>.
+    </note>
+  </conbody>
+
+</concept>

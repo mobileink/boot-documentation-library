@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+
+<reference id="ug.refman.jar">
+  <title><cmdname>jar</cmdname></title>
+
+  <prolog>
+    <metadata>
+      <keywords>
+	<indexterm>jar</indexterm>
+	<indexterm>tasks<indexterm>built-in<indexterm>jar</indexterm></indexterm></indexterm>
+	<indexterm>fileset<indexterm>tasks<indexterm>jar</indexterm></indexterm></indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+
+  <refbody>
+    <refsyn>
+      <codeblock>$ boot jar --arg ...</codeblock>
+      <codeblock>(jar :arg ...)</codeblock>
+    </refsyn>
+
+    <section>
+      <title>DESCRIPTION</title>
+
+      <p></p>
+
+      <p>Arguments:</p>
+
+      <parml>
+
+	<plentry>
+	  <pt>:help</pt>
+	  <pd>bool</pd>
+	  <pd>Print this help info.</pd>
+	</plentry>
+      </parml>
+
+    </section>
+
+    <section><title>AUTHOR</title><p>Written by John Doe. </p></section>
+  </refbody>
+
+  <related-links>
+    <link format="html" href="https://github.com/boot-clj/boot/blob/master/doc/boot.task.built-in.md#jar"
+          scope="external">
+      <linktext><cmdname>jar</cmdname> wiki page.</linktext>
+    </link>
+  </related-links>
+</reference>

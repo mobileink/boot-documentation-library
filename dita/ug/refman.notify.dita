@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+
+<reference id="ug.refman.notify">
+  <title><cmdname>notify</cmdname></title>
+
+  <prolog>
+    <metadata>
+      <keywords>
+	<indexterm>notify</indexterm>
+	<indexterm>tasks<indexterm>built-in<indexterm>notify</indexterm></indexterm></indexterm>
+	<indexterm>fileset<indexterm>tasks<indexterm>notify</indexterm></indexterm></indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+
+  <refbody>
+    <refsyn>
+      <codeblock>$ boot notify --arg ...</codeblock>
+      <codeblock>(notify :arg ...)</codeblock>
+    </refsyn>
+
+    <section>
+      <title>DESCRIPTION</title>
+
+      <p></p>
+
+      <p>Arguments:</p>
+
+      <parml>
+
+	<plentry>
+	  <pt>:help</pt>
+	  <pd>bool</pd>
+	  <pd>Print this help info.</pd>
+	</plentry>
+      </parml>
+
+    </section>
+
+    <section><title>AUTHOR</title><p>Written by John Doe. </p></section>
+  </refbody>
+
+  <related-links>
+    <link format="html" href="https://github.com/boot-clj/boot/blob/master/doc/boot.task.built-in.md#notify"
+          scope="external">
+      <linktext><cmdname>show</cmdname> wiki page.</linktext>
+    </link>
+  </related-links>
+</reference>

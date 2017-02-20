@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd" >
+
+<topic id="ug.clojure.configuration">
+  <title>Clojure Configuration</title>
+
+  <body>
+
+    <p>
+      The profile.boot and build.boot scripts are programs that
+      configure your Clojure project. They impact the program that
+      runs once clojure is bootstrapped.
+    </p>
+
+    <p>
+      They are evaluated in the following order:
+    </p>
+
+    <ol>
+      <li><codeph>BOOT_HOME/profile.boot</codeph></li>
+      <li><codeph>./profile.boot</codeph></li>
+      <li><codeph>./build.boot</codeph></li>
+    </ol>
+
+    <p>
+      They are evaluated in the same namespace and environment, so
+      things you define in say
+      <codeph>BOOT_HOME/profile.boot</codeph> are visible to
+      expressions in <codeph>./profile.boot</codeph> and
+      <codeph>./build.boot</codeph>, for example. Expressions that
+      are evaluated later can override, redef, etc. anything done in
+      scripts that were evaluated earlier.
+    </p>
+
+    <p>
+      The project-local <codeph>profile.boot</codeph> script can be
+      useful when you have project-specific configuration that you
+      don't want to keep in version control. Credentials,
+      configuration that is not shared with the team, etc.
+    </p>
+
+  </body>
+
+  <related-links>
+    <link href="https://github.com/boot-clj/boot/wiki/Configuring-Boot" format="html" scope="external">
+      <linktext>Configuring Boot (wiki page)</linktext>
+    </link>
+  </related-links>
+
+</topic>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN"
+"../../dtd/topic.dtd">
+
+<topic id="ug.frontmatter.preface" xml:lang="en-us">
+  <title>Preface</title>
+
+  <body>
+
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+      finibus rutrum pharetra. Etiam porttitor purus non felis semper,
+      vel lobortis sem ullamcorper. Donec ut interdum turpis, non
+      placerat lacus. Quisque placerat lacus id magna rhoncus, nec
+      lacinia massa blandit. Pellentesque faucibus, dolor vitae
+      accumsan pretium, arcu mauris eleifend felis, a iaculis justo
+      nisl vel quam. Fusce laoreet turpis et finibus
+      molestie. Suspendisse maximus scelerisque dui, vel vestibulum
+      libero porttitor id. In et libero erat. Integer et dolor eget
+      tellus dictum fermentum. Nunc velit elit, eleifend et placerat
+      non, convallis eget mauris. Fusce congue ipsum ac commodo
+      tincidunt. Mauris varius vulputate ante sit amet consequat. Cras
+      et finibus est, fringilla vestibulum turpis. Quisque consectetur
+      felis at nibh vulputate, id bibendum sapien venenatis. Mauris
+      dapibus accumsan ornare.
+    </p>
+
+    <section>
+      <title>About this Document</title>
+
+    <p>
+      This document ...
+    </p>
+
+      <p>Revision: 0.1</p>
+    </section>
+
+    <section>
+      <title>Acknowledgements</title>
+
+      <p>
+	acks here...
+      </p>
+
+    </section>
+  </body>
+</topic>

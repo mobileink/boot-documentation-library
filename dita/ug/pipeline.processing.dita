@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
+"../../dtd/technicalContent/dtd/concept.dtd">
+
+<concept id="dg.pipelines.processing" xml:lang="en-us">
+
+  <title>Pipeline Concepts</title>
+  <shortdesc>Pipeline processing...</shortdesc>
+
+  <conbody>
+    <p>
+      Pipelines are actually two-way, or more accurately, there are
+      two pipelines, connected at the extremities, running in opposite
+      directions.  So it's really a circuit rather than a pipeline.
+      Electrical flow is probably a better metaphor than water flow.
+    </p>
+
+  </conbody>
+
+</concept>

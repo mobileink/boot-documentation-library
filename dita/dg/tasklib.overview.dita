@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+  PUBLIC "-//OASIS//DTD DITA Topic//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/topic.dtd">
+
+<topic id="dg.tasklib.overview">
+  <title>Boot Task Libraries</title>
+
+  <body>
+
+    <p>
+      A Boot task library is a ...
+    </p>
+  </body>
+
+<related-links>
+
+  <link href="https://github.com/boot-clj/boot/wiki/Task-Writer%27s-Guide"
+	format="html" scope="external">
+    <linktext>Task Writer's Guide (wiki)</linktext>
+  </link>
+
+</related-links>
+
+
+</topic>

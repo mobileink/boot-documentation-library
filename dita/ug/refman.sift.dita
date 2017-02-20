@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+
+<reference id="ug.refman.sift">
+  <title><cmdname>sift</cmdname></title>
+
+  <prolog>
+    <metadata>
+      <keywords>
+	<indexterm>sift</indexterm>
+	<indexterm>tasks<indexterm>built-in<indexterm>sift</indexterm></indexterm></indexterm>
+	<indexterm>fileset<indexterm>tasks<indexterm>sift</indexterm></indexterm></indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+
+  <refbody>
+    <refsyn>
+      <codeblock>$ boot sift --arg ...</codeblock>
+      <codeblock>(sift :arg ...)</codeblock>
+    </refsyn>
+
+    <section>
+      <title>DESCRIPTION</title>
+
+      <p>Transform the fileset, matching paths against regexes.</p>
+
+      <p>Arguments:</p>
+
+      <parml>
+	<plentry>
+	  <pt>:add-asset</pt>
+	  <pt>-A</pt>
+	  <pd>#{str}       The set of directory paths to add to assets.</pd>
+	</plentry>
+	<plentry>
+	  <pt>:add-jar</pt>
+	  <pt>-j</pt>
+	  <pd>{sym regex}  The map of jar to path regex of entries in jar to unpack.</pd>
+	</plentry>
+	<plentry>
+	  <pt>:add-meta</pt>
+	  <pt>-M</pt>
+	  <pd>{regex kw}   The map of path regex to meta key to add.</pd>
+	</plentry>
+	<plentry>
+	  <pt>:add-resource</pt>
+	  <pt>-R</pt>
+	  <pd>#{str}       The set of directory paths to add to resources.</pd>
+	</plentry>
+	<plentry>
+	  <pt>:add-source</pt>
+	  <pt>-S</pt>
+	  <pd>#{str}       The set of directory paths to add to sources.</pd>
+	</plentry>
+	<plentry>
+	  <pt>:include</pt>
+	  <pt>-i</pt>
+	  <pd>#{regex}     The set of regexes that paths must match.</pd>
+	</plentry>
+	<plentry>
+	  <pt>:invert</pt>
+	  <pt>-v</pt>
+          <pd>bool         Invert the sense of matching.</pd>
+	</plentry>
+	<plentry>
+	  <pt>:move</pt>
+	  <pt>-m</pt>
+          <pd>{regex str}  The map of regex to replacement path strings.</pd>
+	</plentry>
+	<plentry>
+	  <pt>:to-asset</pt>
+	  <pt>-a</pt>
+	  <pd>#{regex}     The set of regexes of paths to move to assets.</pd>
+	</plentry>
+	<plentry>
+	  <pt>:to-resource</pt>
+	  <pt>-r</pt>
+	  <pd>#{regex}     The set of regexes of paths to move to resources.</pd>
+	</plentry>
+	<plentry>
+	  <pt>:to-source</pt>
+	  <pt>-s</pt>
+	  <pd>#{regex}     The set of regexes of paths to move to sources.</pd>
+	</plentry>
+	<plentry>
+	  <pt>:with-meta</pt>
+	  <pt>-w</pt>
+	  <pd>#{kw}        The set of metadata keys files must have.</pd>
+	</plentry>
+
+	<plentry>
+	  <pt>:help</pt>
+	  <pd>bool</pd>
+	  <pd>Print this help info.</pd>
+	</plentry>
+      </parml>
+
+      <p>
+	The <codeph>--to-asset</codeph>,
+	<codeph>--to-resource</codeph>, and
+	<codeph>--to-source</codeph> options move matching paths to
+	the corresponding section of the fileset. This can be used to
+	make source files into resource files, for example, etc. If
+	<codeph>--invert</codeph> is also specified the transformation
+	is done to paths that do <b><i>NOT</i></b> match.
+      </p>
+
+    </section>
+
+    <section><title>AUTHOR</title><p>Written by John Doe. </p></section>
+  </refbody>
+
+  <related-links>
+    <link format="html" href="https://github.com/boot-clj/boot/blob/master/doc/boot.task.built-in.md#sift"
+          scope="external">
+      <linktext><cmdname>sift</cmdname> wiki page.</linktext>
+    </link>
+  </related-links>
+</reference>

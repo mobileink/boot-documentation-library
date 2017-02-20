@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE troubleshooting PUBLIC "-//OASIS//DTD DITA Troubleshooting//EN" "troubleshooting.dtd">
+
+<troubleshooting id="ug.ts.no-reader-function">
+
+  <title>No output files</title>
+
+  <shortdesc>After running a boot task pipeline, no output is found.</shortdesc>
+
+  <troublebody>
+    <condition>
+      <title>Condition</title>
+      <p></p>
+    </condition>
+
+    <troubleSolution>
+      <cause>
+	<title>Cause</title>
+        <p>
+	  Boot tasks work on filesets, which are not written to the
+	  user filesystem. Well, they are, but in hidden, private
+	  areas. To get the output written to disk you have to tell
+	  boot explicitly to do this.
+	</p>
+
+      </cause>
+
+      <remedy>
+        <title>Remedy</title>
+        <steps-informal>
+          <p>The <cmdname>target</cmdname> task writes files in the resources
+          and assets filesets to a target directory on disk. By
+          default the directory is <filepath>target</filepath>.</p>
+
+	  <p>
+	    For example, to write output to <filepath>out</filepath>:
+	    <codeblock>$ boot mytask target -d out</codeblock>
+	  </p>
+        </steps-informal>
+      </remedy>
+    </troubleSolution>
+  </troublebody>
+</troubleshooting>

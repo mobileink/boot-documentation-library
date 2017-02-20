@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+  PUBLIC "-//OASIS//DTD DITA Topic//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/topic.dtd">
+
+<topic id="ug.workspaces.overview">
+  <title>Workspaces</title>
+
+  <body>
+
+    <p>
+      A boot <i>workspace</i> is ...
+    </p>
+
+    <p>
+      An important principle of the boot build process is that tasks
+      do not refer to named places in the filesystem. Tasks may only
+      create files in managed temp directories provided by boot. These
+      temp directories are:
+    </p>
+
+    <ul>
+      <li>Anonymous – tasks do not specify the location of the temp dir.</li>
+      <li>Local – tasks do not pass references to temp dirs to other tasks.</li>
+      <li>Managed – temp dirs are cleaned up by boot as necessary.</li>
+    </ul>
+
+    <p>
+      In order to communicate files in these temp directories to the
+      rest of the build process they must be added to the fileset
+      object, described below.
+    </p>
+
+  </body>
+
+<related-links>
+
+  <link href="https://github.com/boot-clj/boot/wiki/Tasks" format="html" scope="external">
+    <linktext>Tasks (Wiki page)</linktext>
+  </link>
+
+</related-links>
+
+
+</topic>

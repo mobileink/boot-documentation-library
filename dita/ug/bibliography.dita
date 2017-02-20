@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN"
+ "../../dtd/topic.dtd">
+
+<topic id="casestudy.bibliography" xml:lang="en-us">
+
+<title>Bibliographies</title>
+
+<body>
+  <p>
+    We have assembled a number of Zotero bibliographies that are available online:
+  </p>
+</body>
+
+<related-links>
+
+  <link href="https://www.zotero.org/groups/sensing/items"
+	format="html" scope="external">
+    <linktext>Sensing bibliography</linktext>
+  </link>
+
+  <link href="https://www.zotero.org/groups/ubicomp/items"
+	format="html" scope="external">
+    <linktext>Ubicomp - Ubiquitous Computing Bibliography</linktext>
+  </link>
+
+  <link href="https://www.zotero.org/groups/429886/items"
+	format="html" scope="external">
+    <linktext>IDLA Bibliography</linktext>
+  </link>
+
+
+</related-links>
+
+</topic>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd" >
+
+<topic id="ug.configuration.edn.dita">
+  <title>EDN Configuration Files</title>
+  <body>
+
+    <p>
+      A more advanced technique is to read configuration parameters
+      from a file.  EDN files are commonly used in this way, although
+      any data format could be used.
+    </p>
+
+    <p>
+      See the Boot Task Developer's Guide for details.
+    </p>
+
+
+  </body>
+
+    <related-links>
+      <link href="https://github.com/edn-format/edn" format="html" scope="external">
+	<linktext>Extensible Data Notation (EDN)</linktext>
+      </link>
+    </related-links>
+
+</topic>

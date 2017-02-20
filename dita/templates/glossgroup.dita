@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE glossgroup PUBLIC "-//OASIS//DTD DITA Glossary Group//EN"
+ "../../dtd/technicalContent/dtd/glossgroup.dtd">
+
+<glossgroup id="avr_glossary">
+  <title>Sample glossary</title>
+
+  <glossentry id="avrajax">
+    <glossterm>avrAJAX</glossterm>
+
+    <glossdef><b>A</b>synchronous <b>Ja</b>vaScript and <b>X</b>ML. Web
+    development techniques used on the client-side to create interactive web
+    applications.</glossdef>
+  </glossentry>
+
+  <glossentry id="avrdhtml">
+    <glossterm>avrDHTML</glossterm>
+
+    <glossdef><b>D</b>ynamic <b>HTML</b>. Web development techniques used on
+    the client-side to create interactive web sites.</glossdef>
+  </glossentry>
+
+</glossgroup>

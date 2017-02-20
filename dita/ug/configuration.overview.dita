@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd" >
+
+<topic id="ug.configuration">
+  <title>Configuration</title>
+
+  <body>
+
+    <p>
+      There are four levels of configuration involved:
+      <ul>
+	<li>JVM</li>
+	<li>Clojure</li>
+	<li>Boot</li>
+	<li>Task</li>
+      </ul>
+    </p>
+
+    <p>
+      Configuring Boot means controlling the JVM environment before
+      your project is loaded. Configuring your Clojure project means
+      declaring dependencies, specifying which tasks to run,
+      etc. Environment variables and boot.properties are used in the
+      first case, profile.boot and build.boot in the latter.
+    </p>
+
+  </body>
+
+  <related-links>
+    <link href="https://github.com/boot-clj/boot/wiki/Configuring-Boot" format="html" scope="external">
+      <linktext>Configuring Boot (wiki page)</linktext>
+    </link>
+  </related-links>
+
+</topic>

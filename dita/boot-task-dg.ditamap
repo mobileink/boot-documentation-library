@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN"
+"../dtd/bookmap/dtd/bookmap.dtd">
+
+<bookmap id="boot-task-dg">
+  <booktitle>
+    <booklibrary>Boot Documentation Library</booklibrary>
+    <mainbooktitle>Boot Task Development Guide</mainbooktitle>
+    <!-- <booktitlealt></booktitlealt> -->
+  </booktitle>
+
+  <bookmeta>
+    <author type="creator">Gregg Reynolds</author>
+    <bookid>
+      <!-- <isbn>071271271X</isbn> -->
+      <!-- <booknumber>SG99-9999-00</booknumber> -->
+      <maintainer>
+	<organization></organization>
+	<person>Gregg Reynolds</person>
+      </maintainer>
+    </bookid>
+    <bookrights>
+      <copyrfirst><year>2017</year></copyrfirst>
+      <!-- <copyrlast><year>2007</year></copyrlast> -->
+      <bookowner>
+	<organization></organization>
+      </bookowner>
+    </bookrights>
+  </bookmeta>
+
+  <frontmatter>
+    <draftintro href="dg/frontmatter.draftintro.dita"
+		navtitle="About this Draft"/>
+    <booklists>
+      <toc/>
+    </booklists>
+    <bookabstract href="dg/frontmatter.abstract.dita"/>
+    <notices href="common/notices.dita">
+      <topicref href="common/trademarks.dita"></topicref>
+    </notices>
+    <preface href="dg/frontmatter.preface.dita"></preface>
+  </frontmatter>
+
+  <part href="dg/part1.overview.dita">
+
+    <chapter href="dg/bootdev.overview.dita">
+      <topicref href="dg/bootdev.structure.dita"/>
+      <topicref href="dg/bootdev.function.dita"/>
+    </chapter>
+
+    <chapter href="dg/tasklib.overview.dita">
+      <topicref href="dg/tasklib.structure.dita"/>
+    </chapter>
+
+  </part>
+
+  <appendix href="dg/appendix.dita"></appendix>
+  <!-- <appendix href="dg/overview.case.dita"></appendix> -->
+
+  <backmatter>
+    <booklists>
+      <!-- <topicref href="taskbook/otherbooks.dita" navtitle="Related Books"/> -->
+      <!-- <topicref href="taskbook/trademarks.dita" navtitle="Trademarks"/> -->
+      <!-- <topicref href="taskbook/Glossary.dita navtitle="Glossary"/> -->
+      <bibliolist/>
+      <glossarylist>
+	<topicref format="ditamap" href="glossary.ditamap"/>
+      </glossarylist>
+      <indexlist/>
+    </booklists>
+  </backmatter> 
+</bookmap>

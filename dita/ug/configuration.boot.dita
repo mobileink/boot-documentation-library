@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd" >
+
+<topic id="ug.configuration.boot.dita">
+  <title>Boot Configuration</title>
+  <body>
+
+    <p>
+      Boot's configuration is expressed in the environment map, which
+      is usually configured in <codeph>build.boot</codeph>.
+    </p>
+
+  </body>
+
+  <related-links>
+    <link href="https://github.com/boot-clj/boot/wiki/Boot-Environment" format="html" scope="external">
+      <linktext>Boot Environment (wiki page)</linktext>
+    </link>
+
+    <link href="https://github.com/boot-clj/boot/wiki/Filesets" format="html" scope="external">
+      <linktext>Filesets (wiki page)</linktext>
+    </link>
+
+  </related-links>
+
+</topic>

@@ -1,0 +1,33 @@
+<glossgroup id="sample_glossary">
+  <title>Sample glossary</title>
+
+  <glossentry id="ajax">
+    <glossterm>AJAX</glossterm>
+
+    <glossdef><b>A</b>synchronous <b>Ja</b>vaScript and <b>X</b>ML. Web
+    development techniques used on the client-side to create interactive web
+    applications.</glossdef>
+  </glossentry>
+
+  <glossentry id="dhtml">
+    <glossterm>DHTML</glossterm>
+
+    <glossdef><b>D</b>ynamic <b>HTML</b>. Web development techniques used on
+    the client-side to create interactive web sites.</glossdef>
+  </glossentry>
+
+  <glossentry id="javascript">
+    <glossterm>JavaScript</glossterm>
+
+    <glossdef>JavaScript is an object-oriented scripting language supported by
+    all major web browsers. It allows the development of interactive web sites
+    and web applications.</glossdef>
+
+    <related-links>
+      <link format="html" href="https://developer.mozilla.org/en/JavaScript"
+            scope="external">
+        <linktext>Mozilla's Official Documentation on JavaScript</linktext>
+      </link>
+    </related-links>
+  </glossentry>
+</glossgroup>

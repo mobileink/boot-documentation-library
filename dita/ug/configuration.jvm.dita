@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd" >
+
+<topic id="ug.boot.configuration">
+  <title>JVM Configuration</title>
+
+  <body>
+
+    <p>
+      Configuring Boot means controlling the JVM environment before your project is loaded.
+    </p>
+
+    <p>
+      Configuring the Java environment that bootstraps Clojure is done via:
+      <ul>
+	<li>JVM system properties</li>
+	<li>Environment variables</li>
+	<li>Boot properties files</li>
+	<li>
+	  <ul>
+	    <li><codeph>BOOT_HOME/boot.properties</codeph> (the global configuration file)</li>
+	    <li><codeph>./boot.properties</codeph> (the local project configuration)</li>
+	  </ul>
+	</li>
+	<li>a <codeph>.bootignore</codeph> file (analagous to <codeph>.gitignore</codeph>)</li>
+      </ul>
+    </p>
+
+    <p>
+      Boot being a self-documented toolchain, you can query the
+      environment variables and properties files that Boot understands
+      by invoking <codeph>boot -h</codeph> on the command line.
+    </p>
+
+    <p>
+      The following properties can be set as system properties,
+      environmental variables, or in a
+      <codeph>boot.properties</codeph> file:
+
+      <ul>
+	<li>BOOT_AS_ROOT Set to 'yes' to allow boot to run as root.</li>
+	<li>BOOT_CLOJURE_VERSION The version of Clojure boot will provide (1.8.0).</li>
+	<li>BOOT_HOME Directory where boot stores global state (~/.boot).</li>
+	<li>BOOT_FILE Build script name (build.boot).</li>
+	<li>BOOT_JVM_OPTIONS Specify JVM options (Unix/Linux/OSX only). (*note)</li>
+	<li>BOOT_LOCAL_REPO The local Maven repo path (~/.m2/repository).</li>
+	<li>BOOT_VERSION Specify the version of boot core to use.</li>
+	<li>BOOT_COLOR Turn colorized output on or off</li>
+      </ul>
+    </p>
+
+    <note type="warning">
+      Since BOOT_JVM_OPTIONS is used to launch the initial java
+      process, it must be specified as a system environment variable
+      (e.g. <codeph>export BOOT_JVM_OPTIONS=-client)</codeph>, not in
+      a boot.properties file.
+    </note>
+
+  </body>
+
+  <related-links>
+    <link href="https://github.com/boot-clj/boot/wiki/Configuring-Boot" format="html" scope="external">
+      <linktext>Configuring Boot (wiki page)</linktext>
+    </link>
+  </related-links>
+
+</topic>

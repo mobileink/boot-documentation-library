@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+  PUBLIC "-//OASIS//DTD DITA Topic//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/topic.dtd">
+
+<topic id="ug.troubleshooting.overview">
+  <title>Troubleshooting</title>
+
+  <body>
+
+    <section>
+      <title>Tips</title>
+      <p>
+	The verbosity of the task logging can be increased by using
+	the <codeph>-v</codeph> flag. For even more verbosity -vv can
+	be used. Eg. <codeph>$ boot -v build</codeph>
+      </p>
+
+      <p>
+	In the REPL you use it like this (1-3, increasing verbosity):
+	<codeblock>(reset! boot.util/*verbosity* 2) (boot (build))</codeblock>
+      </p>
+
+      <p>
+	Suppose you do <codeph>boot -v foobar</codeph> and you get a
+	stack trace. You can then do <codeph>boot -vb |cat -n</codeph>
+	and see the matching line numbers. Actually you should do
+	<codeph>boot -vb foobar</codeph> to get the exact same
+	generated code; just add <codeph>-b</codeph> to the thing that caused the
+	error.
+      </p>
+
+      <p>
+	<codeph>boot show</codeph> is your friend. remember: it’s a
+	task. that means you can insert it in anywhere in a pipeline
+	in order to dump useful info to stdout. For example,
+	<codeph>boot show -f my-task show -f</codeph> will print the
+	before and after filesets for my-task.
+    </p>
+    </section>
+
+  </body>
+
+<related-links>
+
+  <link href="https://github.com/boot-clj/boot/wiki/Boot-Troubleshooting" format="html" scope="external">
+    <linktext>Troubleshooting (wiki page)</linktext>
+  </link>
+
+</related-links>
+
+
+</topic>

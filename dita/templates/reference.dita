@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+
+<!-- <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Concept//EN" -->
+<!-- "../../dtd/technicalContent/dtd/reference.dtd"> -->
+
+<reference id="pwd_command">
+  <title>The <cmdname>pwd</cmdname> command</title>
+
+  <refbody>
+    <refsyn><cmdname>pwd</cmdname></refsyn>
+
+    <section><title>DESCRIPTION</title><p>Print the full filename of the
+    current working directory.</p><note>Your shell may have its own version of
+    <cmdname>pwd</cmdname>, which usually supersedes the version described
+    here.</note></section>
+
+    <section><title>AUTHOR</title><p>Written by John Doe. </p></section>
+  </refbody>
+
+  <related-links>
+    <link format="html" href="http://www.manpagez.com/man/3/getcwd/"
+          scope="external">
+      <linktext><cmdname>getcwd</cmdname>(3)</linktext>
+    </link>
+  </related-links>
+</reference>

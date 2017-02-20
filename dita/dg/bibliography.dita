@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN"
+ "../../dtd/topic.dtd">
+
+<topic id="casestudy.bibliography" xml:lang="en-us">
+
+<title>Bibliographies</title>
+
+<body>
+  <p>
+    We have some bibliographies ...
+  </p>
+</body>
+
+<related-links>
+
+  <link href="https://www.zotero.org/foo/bar"
+	format="html" scope="external">
+    <linktext>Boot bibliography</linktext>
+  </link>
+
+</related-links>
+
+</topic>

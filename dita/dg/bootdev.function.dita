@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
+"../../dtd/technicalContent/dtd/concept.dtd">
+
+<concept id="dg.bootdev.function" xml:lang="en-us">
+  <title>Boot Task Development Function</title>
+  <shortdesc>short description</shortdesc>
+  <conbody>
+    <p> ... body ... </p>
+  </conbody>
+</concept>

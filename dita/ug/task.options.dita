@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd" >
+
+<topic id="ug.task.options.dita">
+  <title>Task Options</title>
+  <body>
+
+    <p>
+      Task options:
+    </p>
+
+  </body>
+
+  <related-links>
+    <link href="https://github.com/boot-clj/boot/wiki/Task-Options-DSL" format="html" scope="external">
+      <linktext>Task Options DSL (wiki page)</linktext>
+    </link>
+  </related-links>
+
+</topic>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE glossentry PUBLIC "-//OASIS//DTD DITA Glossary Entry//EN"
+"glossentry.dtd">
+
+<glossentry id="gloss.wsn">
+  <glossterm>WSN</glossterm>
+
+  <glossdef><b>W</b>ireless <b>S</b>ensor <b>N</b>etwork.  A network
+  of sensor nodes that communicate by radio.</glossdef>
+
+  <glossBody>
+    <glossSurfaceForm>Wireless Sensor Network (WSN)</glossSurfaceForm>
+    <glossAlt>
+      <glossAcronym>WSN</glossAcronym>
+      <glossUsage>Explain the acronym on first occurrence.</glossUsage>
+    </glossAlt>
+  </glossBody>
+</glossentry>
+

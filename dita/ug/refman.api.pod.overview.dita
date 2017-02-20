@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+
+<reference id="ug.refman.pod.overview">
+  <title>boot.pod</title>
+
+  <prolog>
+    <metadata>
+      <keywords>
+	<indexterm>pod</indexterm>
+	<indexterm>api<indexterm>pod</indexterm></indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+
+  <refbody>
+    <refsyn>
+    </refsyn>
+
+    <section>
+      <title>DESCRIPTION</title>
+
+      <p>The boot.pod namespace contains functions that ...</p>
+
+    </section>
+
+    <section><title>AUTHOR</title><p>Written by John Doe. </p></section>
+  </refbody>
+
+  <related-links>
+    <link href="https://github.com/boot-clj/boot/blob/master/doc/boot.pod.md"
+	  format="html"
+          scope="external">
+      <linktext><cmdname>boot.pod</cmdname> wiki page.</linktext>
+    </link>
+  </related-links>
+</reference>

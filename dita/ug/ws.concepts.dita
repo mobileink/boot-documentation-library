@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
+"../../dtd/technicalContent/dtd/concept.dtd">
+
+<concept id="ug.ws.concepts" xml:lang="en-us">
+  <title>Workspace Concepts</title>
+  <shortdesc></shortdesc>
+
+  <conbody>
+    <p>
+      "Workspace" is a metaphor for ...
+    </p>
+  </conbody>
+
+</concept>

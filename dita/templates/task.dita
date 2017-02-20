@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+
+<task id="x">
+  <title></title>
+
+  <taskbody>
+    <prereq>prereq</prereq>
+
+    <steps>
+      <step>
+        <cmd>cmd 1</cmd>
+
+        <info></info>
+
+        <stepxmp><screen>C:\&gt; unzip emacs-21.3-bin-i386.zip</screen></stepxmp>
+
+        <stepresult><p>Doing this will create an
+        <filepath>emacs-21.3</filepath> directory.</p></stepresult>
+      </step>
+
+      <step>
+        <cmd>Go to the bin subdirectory.</cmd>
+
+        <stepxmp><screen>C:\&gt; cd emacs-21.3\bin</screen></stepxmp>
+      </step>
+
+      <step>
+        <cmd>Run <cmdname>addpm</cmdname>.</cmd>
+
+        <stepxmp><screen>C:\emacs-21.3\bin&gt; addpm</screen></stepxmp>
+
+        <stepresult>A confirmation dialog box is displayed.<fig>
+            <image href="confirm_install_emacs.png"/>
+          </fig></stepresult>
+      </step>
+
+      <step>
+        <cmd>Click <uicontrol>OK</uicontrol> to confirm.</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

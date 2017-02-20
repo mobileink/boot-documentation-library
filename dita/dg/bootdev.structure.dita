@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
+"../../dtd/technicalContent/dtd/concept.dtd">
+
+<concept id="dg.bootdev.structure" xml:lang="en-us">
+  <title>Structure of Boot Task development</title>
+  <shortdesc> short desc </shortdesc>
+  <conbody>
+    <p>body</p>
+  </conbody>
+</concept>

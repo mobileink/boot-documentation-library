@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+  PUBLIC "-//OASIS//DTD DITA Topic//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/topic.dtd">
+
+<topic id="ug.pods.overview">
+  <title>Pods</title>
+
+  <body>
+
+    <p>
+      A boot <i>pod</i> is ...
+    </p>
+
+  </body>
+
+<related-links>
+
+  <link href="https://github.com/boot-clj/boot/wiki/Pods" format="html" scope="external">
+    <linktext>Pods (wiki page)</linktext>
+  </link>
+
+</related-links>
+
+
+</topic>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+
+<reference id="ug.refman.api.core.tmp-dir">
+  <title>tmp-dir</title>
+
+  <prolog>
+    <metadata>
+      <keywords>
+	<indexterm>tmp-dir</indexterm>
+	<indexterm>api<indexterm>core<indexterm>tmp-dir</indexterm></indexterm></indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+
+  <refbody>
+    <refsyn>
+
+    </refsyn>
+
+    <section>
+      <title>DESCRIPTION</title>
+
+      <p></p>
+
+    </section>
+
+    <section><title>AUTHOR</title><p>Written by John Doe. </p></section>
+  </refbody>
+
+  <related-links>
+    <link href="https://github.com/boot-clj/boot/blob/master/doc/boot.core.md"
+	  format="html"
+          scope="external">
+      <linktext><cmdname>boot.core</cmdname> wiki page.</linktext>
+    </link>
+  </related-links>
+</reference>

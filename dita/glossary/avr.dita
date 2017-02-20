@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE glossentry PUBLIC "-//OASIS//DTD DITA Glossary Entry//EN"
+"glossentry.dtd">
+
+<glossentry id="gloss.avr">
+  <glossterm>AVR</glossterm>
+
+  <glossdef>AVR is a kind of microcontroller from Atmel</glossdef>
+
+  <glossBody>
+    <glossSurfaceForm>AVR</glossSurfaceForm>
+    <glossAlt>
+      <glossAcronym>AVR</glossAcronym>
+    </glossAlt>
+  </glossBody>
+
+<related-links>
+
+  <link href="http://www.atmel.com/products/microcontrollers/avr/"
+	format="html" scope="external">
+    <linktext>Atmel AVR 8-bit and 32-bit Microcontrollers</linktext>
+  </link>
+
+</related-links>
+
+
+</glossentry>
+

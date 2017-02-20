@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+PUBLIC "-//OASIS//DTD DITA Topic//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/topic.dtd">
+
+<topic id="ug.build.boot.dita">
+  <title><filepath>build.boot</filepath></title>
+  <body>
+    <p></p>
+
+    <example>
+      <title>Example: <filepath>build.boot</filepath> file</title>
+
+      <p>The following <filepath>build.boot</filepath> files ...</p>
+
+      <p>
+	Sample <filepath>build.boot</filepath> file:
+	<!-- <filepath conref="../resources/conref-task.dita#ID/samples-dir"/> -->
+	<!-- <filepath>/properties/chm.properties</filepath> -->
+	<codeblock><coderef href="../samples/build.boot"/></codeblock>
+      </p>
+
+      <!-- <p>Sample <filepath>.properties</filepath> file: <filepath conref="../resources/conref-task.dita#ID/samples-dir" -->
+      <!-- /><filepath>/properties/pdf.properties</filepath><codeblock><coderef href="../samples/properties/pdf.properties"/></codeblock></p> -->
+      <!-- <p>Run from <filepath conref="../resources/conref-task.dita#ID/samples-dir"/>:</p> -->
+      <!-- <codeblock><cmdname>dita</cmdname> <parmname>-\-input</parmname>=<filepath>sequence.ditamap</filepath> <parmname>-\-format</parmname>=<option>htmlhelp</option> \ -->
+      <!-- <parmname>-\-propertyfile</parmname>=<filepath>properties/chm.properties</filepath> -->
+      <!-- <cmdname>dita</cmdname> <parmname>-\-input</parmname>=<filepath>taskbook.ditamap</filepath> <parmname>-\-format</parmname>=<option>pdf</option> \ -->
+      <!-- <parmname>-\-propertyfile</parmname>=<filepath>properties/pdf.properties</filepath></codeblock> -->
+
+    </example>
+
+
+  </body>
+</topic>

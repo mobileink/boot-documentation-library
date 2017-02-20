@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE troubleshooting PUBLIC "-//OASIS//DTD DITA Troubleshooting//EN" "troubleshooting.dtd">
+
+<troubleshooting id="ug.ts.no-reader-function">
+
+  <title>No reader function</title>
+
+  <shortdesc>No reader function for tag object</shortdesc>
+
+  <troublebody>
+    <condition>
+      <title>Condition</title>
+      <p>You get this message when you run boot.</p>
+    </condition>
+
+    <troubleSolution>
+      <cause>
+	<title>Cause</title>
+        <p>
+	  May happen if you try to access something external from
+	  within a pod. Only forms that can be printed with pr-str and
+	  read via read-string can pass between pods. That’s why you
+	  see that exception.
+	</p>
+
+	<p>
+	  This is due to the way Clojure works; interfaces and classes
+	  are created dynamically at runtime, so two clojure runtimes
+	  can’t understand each other’s clojure things. Remember that
+	  pods are runtimes.
+	</p>
+      </cause>
+
+      <remedy>
+        <title>Remedy</title>
+        <steps-informal>
+          <p>You want to pass in the string path to
+	  the java.io.File object, not the object itself; i.e. pass
+	  <codeph>~(.getPath tgt)</codeph> instead of
+	  <codeph>~tgt</codeph>. The test it must pass is <codeph>(= tgt
+	  (read-string (pr-str tgt)))</codeph>.
+	  </p>
+        </steps-informal>
+      </remedy>
+    </troubleSolution>
+  </troublebody>
+</troubleshooting>

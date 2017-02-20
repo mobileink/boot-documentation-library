@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE glossentry PUBLIC "-//OASIS//DTD DITA Glossary Entry//EN"
+"../../dtd/technicalContent/dtd/glossentry.dtd">
+
+<glossentry id="usbfd">
+<glossterm id="usbfd">USB flash drive</glossterm>
+<glossdef>A small portable drive.</glossdef>
+<glossBody>
+  <glossSurfaceForm>USB flash drive (UFD, or flashie)</glossSurfaceForm>
+  <!-- <glossPartOfSpeech value="noun"/> -->
+  <!-- <glossUsage>Do not provide in upper case (as in "USB Flash Drive") because that -->
+  <!-- suggests a trademark.</glossUsage> -->
+  <!-- <glossSymbol href="ufd_logo.jpg" scope="local"> -->
+  <!--   <alt>Identification logo for USB flash drives</alt> -->
+  <!-- </glossSymbol> -->
+  <!-- <glossScopeNote>Not to be used for other flash memory cards that do not use a USB -->
+  <!-- interface. -->
+  <!-- </glossScopeNote> -->
+  <glossAlt>
+    <glossAcronym>UFD</glossAcronym>
+    <glossUsage>Explain the acronym on first occurrence.</glossUsage>
+  </glossAlt>
+  <!-- <glossAlt> -->
+  <!--   <glossShortForm>flashie</glossShortForm> -->
+  <!--   <glossUsage>Usually describes low cost devices.</glossUsage> -->
+  <!-- </glossAlt> -->
+  <!-- <glossAlt id="memoryStick"> -->
+  <!--   <glossSynonym>memory stick</glossSynonym> -->
+  <!--   <glossUsage>This is a colloquial term.</glossUsage> -->
+  <!-- </glossAlt> -->
+  <!-- <glossAlt> -->
+  <!--   <glossAbbreviation>stick</glossAbbreviation> -->
+  <!--   <glossAlternateFor href="#usbfd/memoryStick"/> -->
+  <!-- </glossAlt> -->
+  <!-- <glossAlt> -->
+  <!--   <glossAbbreviation>flash</glossAbbreviation> -->
+  <!--   <glossStatus value="prohibited"/> -->
+  <!--   <glossUsage>This short form is ambiguous.</glossUsage> -->
+  <!-- </glossAlt> -->
+</glossBody>
+</glossentry>
+

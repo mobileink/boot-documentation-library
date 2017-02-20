@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+
+<reference id="ug.refman.target">
+  <title><cmdname>target</cmdname></title>
+
+  <prolog>
+    <metadata>
+      <keywords>
+	<indexterm>target</indexterm>
+	<indexterm>tasks
+	<indexterm>built-in
+	<indexterm>target</indexterm>
+	</indexterm>
+	</indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+
+  <refbody>
+
+    <refsyn>
+      <codeblock>$ boot target --arg ...</codeblock>
+      <codeblock>(target :arg ...)</codeblock>
+    </refsyn>
+
+    <section>
+      <title>DESCRIPTION</title>
+
+      <p>Writes output files to the given directory on the filesystem.</p>
+
+      <p>where:</p>
+
+      <parml>
+	<plentry>
+	  <pt>:help</pt>
+	  <pd>bool</pd>
+	  <pd>Print this help info.</pd>
+	</plentry>
+	<plentry>
+	  <pt>:dir</pt>
+	  <pd>#{str}</pd>
+	  <pd>The set of directories to write to (target). Default: <filepath>target</filepath></pd>
+	</plentry>
+	<plentry>
+	  <pt>:no-link</pt>
+	  <pd>bool</pd>
+	  <pd>Don't create hard links.</pd>
+	</plentry>
+	<plentry>
+	  <pt>:no-clean</pt>
+	  <pd>bool</pd>
+	  <pd>Don't clean target before writing project files.</pd>
+	</plentry>
+      </parml>
+    </section>
+
+    <section><title>AUTHOR</title><p>Written by John Doe. </p></section>
+  </refbody>
+
+  <related-links>
+    <link format="html" href="https://github.com/boot-clj/boot/blob/master/doc/boot.task.built-in.md#target"
+          scope="external">
+      <linktext><cmdname>target</cmdname> wiki page.</linktext>
+    </link>
+  </related-links>
+</reference>
